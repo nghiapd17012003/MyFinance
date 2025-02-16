@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using MyFinance.Models;
 using Microsoft.Extensions.DependencyInjection;
+using MyFinance.Models;
 using MyFinance.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +11,12 @@ builder.Services.AddDbContext<MyFinanceContext>(options =>
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var service = scope.ServiceProvider;
+    SeedExpensesData.Initialize(service);
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

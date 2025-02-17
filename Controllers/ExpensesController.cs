@@ -19,10 +19,30 @@ namespace MyFinance.Controllers
             _context = context;
         }
 
-        // GET: Expenses
-        public async Task<IActionResult> Index()
+        
+        [HttpPost]
+        public string Index(string searchString, bool notUsed)
         {
-            return View(await _context.Expense.ToListAsync());
+            return "From [HttpPost]Index: filter on " + searchString;
+        }
+
+        // GET: Expenses
+        public async Task<IActionResult> Index(string searchString)
+        {
+            if (_context.Expense == null)
+            {
+                return Problem("Entity set 'MyFinanceContext.Expense'  is null.");
+            }
+
+            var expenses = from m in _context.Expense
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                expenses = expenses.Where(s => s.Name!.ToUpper().Contains(searchString.ToUpper()));
+            }
+
+            return View(await expenses.ToListAsync());
         }
 
         // GET: Expenses/Details/5

@@ -22,15 +22,15 @@ namespace MyFinance.Models
                     new Expense
                     {
                         Name = "Expense Dummy 1",
+                        Type = "One-off",
                         Amount = 1,
-                        TotalPrice = 0,
                         Description = "This is the first dummy expense, you can delete it!"
                     },
                     new Expense
                     {
                         Name = "Expense Dummy 2",
+                        Type = "Recurring",
                         Amount = 2,
-                        TotalPrice = 0,
                         Description = "This is the second dummy expense, you can delete it!"
                     }
                 );

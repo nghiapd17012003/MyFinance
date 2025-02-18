@@ -74,7 +74,7 @@ namespace MyFinance.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Amount,TotalPrice,Description")] Expense expense)
+        public async Task<IActionResult> Create([Bind("Id,Name,Type,Amount,Description")] Expense expense)
         {
             if (ModelState.IsValid)
             {
@@ -106,7 +106,7 @@ namespace MyFinance.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Amount,TotalPrice,Description")] Expense expense)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,,Type,Amount,Description")] Expense expense)
         {
             if (id != expense.Id)
             {

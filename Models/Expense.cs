@@ -7,11 +7,11 @@ namespace MyFinance.Models
     public class Expense
     {
         public int Id { get; set; }
-        public string? Name { get; set; }
-        public double Amount { get; set; }
+        public required string Name { get; set; }
+        public required string Type { get; set; }
 
         [Range(1, 100), DataType(DataType.Currency), Column(TypeName = "decimal(18, 2)"), Required]
-        public double TotalPrice { get; set; }
+        public double Amount { get; set; }
 
         [StringLength(64)]
         public string? Description { get; set; }

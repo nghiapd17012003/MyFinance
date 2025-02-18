@@ -15,5 +15,25 @@ namespace MyFinance.Data
         }
 
         public DbSet<MyFinance.Models.Expense> Expense { get; set; } = default!;
+
+        // Add the OnModelCreating method
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Expense>()
+                .Property(e => e.Name)
+                .HasColumnOrder(1);
+
+            modelBuilder.Entity<Expense>()
+                .Property(e => e.Type)
+                .HasColumnOrder(2);
+
+            modelBuilder.Entity<Expense>()
+                .Property(e => e.Amount)
+                .HasColumnOrder(3);
+
+            modelBuilder.Entity<Expense>()
+                .Property(e => e.Description)
+                .HasColumnOrder(4);
+        }
     }
 }

@@ -7,7 +7,12 @@ namespace MyFinance.Models
     public class Expense
     {
         public int Id { get; set; }
+
+        [DataType(DataType.Date)]
+        public DateTime Date { get; set; }
+        
         public required string Name { get; set; }
+        
         public required string Type { get; set; }
 
         [Range(1, 100), DataType(DataType.Currency), Column(TypeName = "decimal(18, 2)"), Required]

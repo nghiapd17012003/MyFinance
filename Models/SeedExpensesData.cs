@@ -21,6 +21,7 @@ namespace MyFinance.Models
                 context.Expense.AddRange(
                     new Expense
                     {
+                        Date = DateTime.Now,
                         Name = "Expense Dummy 1",
                         Type = "One-off",
                         Amount = 1,
@@ -28,6 +29,7 @@ namespace MyFinance.Models
                     },
                     new Expense
                     {
+                        Date = DateTime.Now,   
                         Name = "Expense Dummy 2",
                         Type = "Recurring",
                         Amount = 2,

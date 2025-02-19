@@ -20,20 +20,28 @@ namespace MyFinance.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Expense>()
-                .Property(e => e.Name)
+                .Property(e => e.Id)
+                .HasColumnOrder(0);
+
+            modelBuilder.Entity<Expense>()
+                .Property(e => e.Date)
                 .HasColumnOrder(1);
 
             modelBuilder.Entity<Expense>()
-                .Property(e => e.Type)
+                .Property(e => e.Name)
                 .HasColumnOrder(2);
 
             modelBuilder.Entity<Expense>()
-                .Property(e => e.Amount)
+                .Property(e => e.Type)
                 .HasColumnOrder(3);
 
             modelBuilder.Entity<Expense>()
-                .Property(e => e.Description)
+                .Property(e => e.Amount)
                 .HasColumnOrder(4);
+
+            modelBuilder.Entity<Expense>()
+                .Property(e => e.Description)
+                .HasColumnOrder(5);
         }
     }
 }

@@ -16,6 +16,8 @@ namespace MyFinance.Data
 
         public DbSet<MyFinance.Models.Expense> Expense { get; set; } = default!;
 
+        public DbSet<MyFinance.Models.BudgetPlannerExpense> BudgetPlannerExpenses { get; set; } = default!;
+
         // Add the OnModelCreating method
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

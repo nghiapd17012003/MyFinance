@@ -15,7 +15,7 @@ namespace MyFinance.Models
         
         public required string Type { get; set; }
 
-        [Range(1, 100), DataType(DataType.Currency), Column(TypeName = "decimal(18, 2)"), Required]
+        [DataType(DataType.Currency), Column(TypeName = "decimal(18, 2)"), Required]
         public double Amount { get; set; }
 
         [StringLength(64)]

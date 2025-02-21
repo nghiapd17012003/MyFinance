@@ -7,6 +7,7 @@ C:\project\MyFinance\MyFinance\wwwroot\lib\jquery\dist\jquery.min.map
 C:\project\MyFinance\MyFinance\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
 C:\project\MyFinance\MyFinance\wwwroot\lib\jquery-validation\dist\additional-methods.js
 C:\project\MyFinance\MyFinance\wwwroot\lib\jquery\LICENSE.txt
+C:\project\MyFinance\MyFinance\wwwroot\js\budgetPlanner.js
 C:\project\MyFinance\MyFinance\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 C:\project\MyFinance\MyFinance\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
 C:\project\MyFinance\MyFinance\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
@@ -62,6 +63,7 @@ C:\project\MyFinance\MyFinance\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
 C:\project\MyFinance\MyFinance\wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\budgetPlanner.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

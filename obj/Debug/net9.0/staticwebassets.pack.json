@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\project\\MyFinance\\MyFinance\\wwwroot\\js\\budgetPlanner.js",
+      "PackagePath": "staticwebassets\\js\\budgetPlanner.js"
+    },
+    {
       "Id": "C:\\project\\MyFinance\\MyFinance\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

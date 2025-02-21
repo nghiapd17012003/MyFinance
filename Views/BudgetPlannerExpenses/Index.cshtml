@@ -4,11 +4,21 @@
     ViewData["Title"] = "Index";
 }
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
 <h1>Budget Planner</h1>
+
+
+<div>
+    <canvas id="budgetPieChart"></canvas>
+</div>
+<script src="~/js/budgetPlanner.js"></script>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
 <table class="table">
     <thead>
         <tr>
@@ -28,8 +38,10 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
+        @{double total = 0;}
+        @foreach (var item in Model) {
+            total += item.Amount;
+            <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
@@ -48,6 +60,12 @@
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>
-}
+        }
+        <tr class="">
+            <td>Total:</td>
+            <td></td>
+            <td></td>
+            <td>$@total</td>
+        </tr>
     </tbody>
 </table>

@@ -339,3 +339,6 @@ C:\project\MyFinance\MyFinance\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Worksp
 C:\project\MyFinance\MyFinance\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\project\MyFinance\MyFinance\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\project\MyFinance\MyFinance\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\project\MyFinance\MyFinance\bin\Debug\net9.0\package-lock.json
+C:\project\MyFinance\MyFinance\bin\Debug\net9.0\package.json
+C:\project\MyFinance\MyFinance\obj\Debug\net9.0\compressed\8hymuxmaqy-m0hw8dfqh8.gz

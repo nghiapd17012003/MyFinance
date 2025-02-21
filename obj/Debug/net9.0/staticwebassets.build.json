@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ccf+QmiHlyyck5ZxX/0YCsKchBfUawIdxbztgK7na8I=",
+  "Hash": "dp2ZZXe4jH6vtCQ/atB0MpWqhq02EjLzGBix6IoPVZA=",
   "Source": "MyFinance",
   "BasePath": "_content/MyFinance",
   "Mode": "Default",
@@ -225,6 +225,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\project\\MyFinance\\MyFinance\\wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-m0hw8dfqh8.gz",
+      "SourceId": "MyFinance",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyFinance",
+      "RelativePath": "js/budgetPlanner#[.{fingerprint=m0hw8dfqh8}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\project\\MyFinance\\MyFinance\\wwwroot\\js\\budgetPlanner.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "c3c0ejs3b9",
+      "Integrity": "OLeQfZDI1AQ2pAwC6N1xEcuuItdsHiztXVGuRmJfDwo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\project\\MyFinance\\MyFinance\\wwwroot\\js\\budgetPlanner.js"
     },
     {
       "Identity": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8njhfh2kos-h1s4sie4z3.gz",
@@ -1443,6 +1464,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\project\\MyFinance\\MyFinance\\wwwroot\\js\\budgetPlanner.js",
+      "SourceId": "MyFinance",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\project\\MyFinance\\MyFinance\\wwwroot\\",
+      "BasePath": "_content/MyFinance",
+      "RelativePath": "js/budgetPlanner#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m0hw8dfqh8",
+      "Integrity": "2hUsZ6HD5jbMdMXHQSQWKS82KeM85Xp3IfPs+XEi3zQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\budgetPlanner.js"
     },
     {
       "Identity": "C:\\project\\MyFinance\\MyFinance\\wwwroot\\js\\site.js",
@@ -3320,6 +3362,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "js/budgetPlanner.js",
+      "AssetFile": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-m0hw8dfqh8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003663003663"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OLeQfZDI1AQ2pAwC6N1xEcuuItdsHiztXVGuRmJfDwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 00:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2hUsZ6HD5jbMdMXHQSQWKS82KeM85Xp3IfPs+XEi3zQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2hUsZ6HD5jbMdMXHQSQWKS82KeM85Xp3IfPs+XEi3zQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/budgetPlanner.js",
+      "AssetFile": "C:\\project\\MyFinance\\MyFinance\\wwwroot\\js\\budgetPlanner.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2hUsZ6HD5jbMdMXHQSQWKS82KeM85Xp3IfPs+XEi3zQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 00:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2hUsZ6HD5jbMdMXHQSQWKS82KeM85Xp3IfPs+XEi3zQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/budgetPlanner.js.gz",
+      "AssetFile": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-m0hw8dfqh8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OLeQfZDI1AQ2pAwC6N1xEcuuItdsHiztXVGuRmJfDwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 00:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OLeQfZDI1AQ2pAwC6N1xEcuuItdsHiztXVGuRmJfDwo="
+        }
+      ]
+    },
+    {
+      "Route": "js/budgetPlanner.m0hw8dfqh8.js",
+      "AssetFile": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-m0hw8dfqh8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003663003663"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OLeQfZDI1AQ2pAwC6N1xEcuuItdsHiztXVGuRmJfDwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 00:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2hUsZ6HD5jbMdMXHQSQWKS82KeM85Xp3IfPs+XEi3zQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m0hw8dfqh8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/budgetPlanner.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2hUsZ6HD5jbMdMXHQSQWKS82KeM85Xp3IfPs+XEi3zQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/budgetPlanner.m0hw8dfqh8.js",
+      "AssetFile": "C:\\project\\MyFinance\\MyFinance\\wwwroot\\js\\budgetPlanner.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2hUsZ6HD5jbMdMXHQSQWKS82KeM85Xp3IfPs+XEi3zQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 00:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m0hw8dfqh8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/budgetPlanner.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2hUsZ6HD5jbMdMXHQSQWKS82KeM85Xp3IfPs+XEi3zQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/budgetPlanner.m0hw8dfqh8.js.gz",
+      "AssetFile": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-m0hw8dfqh8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OLeQfZDI1AQ2pAwC6N1xEcuuItdsHiztXVGuRmJfDwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 00:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m0hw8dfqh8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/budgetPlanner.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OLeQfZDI1AQ2pAwC6N1xEcuuItdsHiztXVGuRmJfDwo="
         }
       ]
     },

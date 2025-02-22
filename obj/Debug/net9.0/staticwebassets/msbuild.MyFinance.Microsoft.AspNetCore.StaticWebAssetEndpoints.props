@@ -27,14 +27,14 @@
     <StaticWebAssetEndpoint Include="_content/MyFinance/js/budgetPlanner.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\budgetPlanner.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2hUsZ6HD5jbMdMXHQSQWKS82KeM85Xp3IfPs\u002BXEi3zQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"451"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222hUsZ6HD5jbMdMXHQSQWKS82KeM85Xp3IfPs\u002BXEi3zQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Feb 2025 00:47:22 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l96cInriK\u002BRfSBmA9a4VYgVsx1xk\u002BgPe1AydY7K0ynk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"753"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022l96cInriK\u002BRfSBmA9a4VYgVsx1xk\u002BgPe1AydY7K0ynk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 23:48:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MyFinance/js/budgetPlanner.m0hw8dfqh8.js">
+    <StaticWebAssetEndpoint Include="_content/MyFinance/js/budgetPlanner.ncly27we5y.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\budgetPlanner.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m0hw8dfqh8"},{"Name":"integrity","Value":"sha256-2hUsZ6HD5jbMdMXHQSQWKS82KeM85Xp3IfPs\u002BXEi3zQ="},{"Name":"label","Value":"_content/MyFinance/js/budgetPlanner.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"451"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222hUsZ6HD5jbMdMXHQSQWKS82KeM85Xp3IfPs\u002BXEi3zQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Feb 2025 00:47:22 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ncly27we5y"},{"Name":"integrity","Value":"sha256-l96cInriK\u002BRfSBmA9a4VYgVsx1xk\u002BgPe1AydY7K0ynk="},{"Name":"label","Value":"_content/MyFinance/js/budgetPlanner.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"753"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022l96cInriK\u002BRfSBmA9a4VYgVsx1xk\u002BgPe1AydY7K0ynk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 23:48:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MyFinance/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

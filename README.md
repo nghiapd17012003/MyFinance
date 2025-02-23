@@ -18,4 +18,4 @@
   * Bootstrap 5
 
 * JS Libraries
-  * To be determined
+  * Chart.js

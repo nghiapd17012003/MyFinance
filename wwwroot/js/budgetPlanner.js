@@ -5,14 +5,16 @@ chartCanvas.parentNode.style.height = (screenHeight / 2) + "px";
 chartCanvas.parentNode.style.width = (screenWidth / 3) + "px";
 
 console.log(chartData); // Now chartData will be available
+const lables = Object.keys(chartData);
+const dataValues = Object.values(chartData);
 
 new Chart(chartCanvas, {
     type: 'pie',
     data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        labels: lables,
         datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
+            label: "Expenses",
+            data: dataValues,
             borderWidth: 0.2
         }]
     },

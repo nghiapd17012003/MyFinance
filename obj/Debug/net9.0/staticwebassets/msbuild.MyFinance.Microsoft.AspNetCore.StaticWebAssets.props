@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ncly27we5y</Fingerprint>
-      <Integrity>l96cInriK+RfSBmA9a4VYgVsx1xk+gPe1AydY7K0ynk=</Integrity>
+      <Fingerprint>x61mon368a</Fingerprint>
+      <Integrity>iTPO05/tl+h0IpoF5jxjkwgFjjhmAYuK25ykuYRSZQ8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\budgetPlanner.js'))</OriginalItemSpec>

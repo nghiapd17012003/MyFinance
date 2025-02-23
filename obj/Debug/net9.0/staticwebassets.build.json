@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PEhb8ipBD+MJsS4zJQkAYAOZI9iQl40XY6LfUiTdlYo=",
+  "Hash": "0x83jXzsZx5MAzwQwQr/Z14IZyPLBTczxTO/SKy0i7I=",
   "Source": "MyFinance",
   "BasePath": "_content/MyFinance",
   "Mode": "Default",
@@ -227,12 +227,12 @@
       "OriginalItemSpec": "C:\\project\\MyFinance\\MyFinance\\wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-ncly27we5y.gz",
+      "Identity": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-x61mon368a.gz",
       "SourceId": "MyFinance",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MyFinance",
-      "RelativePath": "js/budgetPlanner#[.{fingerprint=ncly27we5y}]?.js.gz",
+      "RelativePath": "js/budgetPlanner#[.{fingerprint=x61mon368a}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -241,8 +241,8 @@
       "RelatedAsset": "C:\\project\\MyFinance\\MyFinance\\wwwroot\\js\\budgetPlanner.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "m3hdsfw3ls",
-      "Integrity": "0o/IyRUi6TIlLRWEhx3lYrZXh43L/xAuwSA45w2Vibk=",
+      "Fingerprint": "2pap5277ru",
+      "Integrity": "Zp8XIBX2m1d07lgAwPoj3NxeAcgM8hrROaogzYHy5T0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\project\\MyFinance\\MyFinance\\wwwroot\\js\\budgetPlanner.js"
@@ -1480,8 +1480,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ncly27we5y",
-      "Integrity": "l96cInriK+RfSBmA9a4VYgVsx1xk+gPe1AydY7K0ynk=",
+      "Fingerprint": "x61mon368a",
+      "Integrity": "iTPO05/tl+h0IpoF5jxjkwgFjjhmAYuK25ykuYRSZQ8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\budgetPlanner.js"
@@ -3367,12 +3367,12 @@
     },
     {
       "Route": "js/budgetPlanner.js",
-      "AssetFile": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-ncly27we5y.gz",
+      "AssetFile": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-x61mon368a.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002463054187"
+          "Quality": "0.002597402597"
         }
       ],
       "ResponseHeaders": [
@@ -3382,15 +3382,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "405"
+          "Value": "384"
         },
         {
           "Name": "ETag",
-          "Value": "\"0o/IyRUi6TIlLRWEhx3lYrZXh43L/xAuwSA45w2Vibk=\""
+          "Value": "\"Zp8XIBX2m1d07lgAwPoj3NxeAcgM8hrROaogzYHy5T0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 23:48:00 GMT"
+          "Value": "Sun, 23 Feb 2025 04:02:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3410,13 +3410,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"l96cInriK+RfSBmA9a4VYgVsx1xk+gPe1AydY7K0ynk=\""
+          "Value": "W/\"iTPO05/tl+h0IpoF5jxjkwgFjjhmAYuK25ykuYRSZQ8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-l96cInriK+RfSBmA9a4VYgVsx1xk+gPe1AydY7K0ynk="
+          "Value": "sha256-iTPO05/tl+h0IpoF5jxjkwgFjjhmAYuK25ykuYRSZQ8="
         }
       ]
     },
@@ -3431,7 +3431,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "753"
+          "Value": "777"
         },
         {
           "Name": "Content-Type",
@@ -3439,11 +3439,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"l96cInriK+RfSBmA9a4VYgVsx1xk+gPe1AydY7K0ynk=\""
+          "Value": "\"iTPO05/tl+h0IpoF5jxjkwgFjjhmAYuK25ykuYRSZQ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 23:48:00 GMT"
+          "Value": "Sun, 23 Feb 2025 04:02:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3453,13 +3453,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-l96cInriK+RfSBmA9a4VYgVsx1xk+gPe1AydY7K0ynk="
+          "Value": "sha256-iTPO05/tl+h0IpoF5jxjkwgFjjhmAYuK25ykuYRSZQ8="
         }
       ]
     },
     {
       "Route": "js/budgetPlanner.js.gz",
-      "AssetFile": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-ncly27we5y.gz",
+      "AssetFile": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-x61mon368a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3468,7 +3468,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "405"
+          "Value": "384"
         },
         {
           "Name": "Content-Type",
@@ -3476,11 +3476,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0o/IyRUi6TIlLRWEhx3lYrZXh43L/xAuwSA45w2Vibk=\""
+          "Value": "\"Zp8XIBX2m1d07lgAwPoj3NxeAcgM8hrROaogzYHy5T0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 23:48:00 GMT"
+          "Value": "Sun, 23 Feb 2025 04:02:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3498,18 +3498,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0o/IyRUi6TIlLRWEhx3lYrZXh43L/xAuwSA45w2Vibk="
+          "Value": "sha256-Zp8XIBX2m1d07lgAwPoj3NxeAcgM8hrROaogzYHy5T0="
         }
       ]
     },
     {
-      "Route": "js/budgetPlanner.ncly27we5y.js",
-      "AssetFile": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-ncly27we5y.gz",
+      "Route": "js/budgetPlanner.x61mon368a.js",
+      "AssetFile": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-x61mon368a.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002463054187"
+          "Quality": "0.002597402597"
         }
       ],
       "ResponseHeaders": [
@@ -3519,15 +3519,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "405"
+          "Value": "384"
         },
         {
           "Name": "ETag",
-          "Value": "\"0o/IyRUi6TIlLRWEhx3lYrZXh43L/xAuwSA45w2Vibk=\""
+          "Value": "\"Zp8XIBX2m1d07lgAwPoj3NxeAcgM8hrROaogzYHy5T0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 23:48:00 GMT"
+          "Value": "Sun, 23 Feb 2025 04:02:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3547,13 +3547,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"l96cInriK+RfSBmA9a4VYgVsx1xk+gPe1AydY7K0ynk=\""
+          "Value": "W/\"iTPO05/tl+h0IpoF5jxjkwgFjjhmAYuK25ykuYRSZQ8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ncly27we5y"
+          "Value": "x61mon368a"
         },
         {
           "Name": "label",
@@ -3561,12 +3561,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-l96cInriK+RfSBmA9a4VYgVsx1xk+gPe1AydY7K0ynk="
+          "Value": "sha256-iTPO05/tl+h0IpoF5jxjkwgFjjhmAYuK25ykuYRSZQ8="
         }
       ]
     },
     {
-      "Route": "js/budgetPlanner.ncly27we5y.js",
+      "Route": "js/budgetPlanner.x61mon368a.js",
       "AssetFile": "C:\\project\\MyFinance\\MyFinance\\wwwroot\\js\\budgetPlanner.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3576,7 +3576,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "753"
+          "Value": "777"
         },
         {
           "Name": "Content-Type",
@@ -3584,11 +3584,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"l96cInriK+RfSBmA9a4VYgVsx1xk+gPe1AydY7K0ynk=\""
+          "Value": "\"iTPO05/tl+h0IpoF5jxjkwgFjjhmAYuK25ykuYRSZQ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 23:48:00 GMT"
+          "Value": "Sun, 23 Feb 2025 04:02:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3598,7 +3598,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ncly27we5y"
+          "Value": "x61mon368a"
         },
         {
           "Name": "label",
@@ -3606,13 +3606,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-l96cInriK+RfSBmA9a4VYgVsx1xk+gPe1AydY7K0ynk="
+          "Value": "sha256-iTPO05/tl+h0IpoF5jxjkwgFjjhmAYuK25ykuYRSZQ8="
         }
       ]
     },
     {
-      "Route": "js/budgetPlanner.ncly27we5y.js.gz",
-      "AssetFile": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-ncly27we5y.gz",
+      "Route": "js/budgetPlanner.x61mon368a.js.gz",
+      "AssetFile": "C:\\project\\MyFinance\\MyFinance\\obj\\Debug\\net9.0\\compressed\\8hymuxmaqy-x61mon368a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3621,7 +3621,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "405"
+          "Value": "384"
         },
         {
           "Name": "Content-Type",
@@ -3629,11 +3629,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0o/IyRUi6TIlLRWEhx3lYrZXh43L/xAuwSA45w2Vibk=\""
+          "Value": "\"Zp8XIBX2m1d07lgAwPoj3NxeAcgM8hrROaogzYHy5T0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 23:48:00 GMT"
+          "Value": "Sun, 23 Feb 2025 04:02:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3651,7 +3651,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ncly27we5y"
+          "Value": "x61mon368a"
         },
         {
           "Name": "label",
@@ -3659,7 +3659,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0o/IyRUi6TIlLRWEhx3lYrZXh43L/xAuwSA45w2Vibk="
+          "Value": "sha256-Zp8XIBX2m1d07lgAwPoj3NxeAcgM8hrROaogzYHy5T0="
         }
       ]
     },

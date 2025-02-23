@@ -2,12 +2,19 @@
 
 @{
     ViewData["Title"] = "Index";
+    Dictionary<string, int> frequencyDict = new Dictionary<string, int>{
+        {"Daily", 1},
+        {"Weekly", 7},
+        {"Fortnightly", 14},
+        {"Monthly", 30},
+        {"Yearly", 365},
+    };
 }
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 
-<h1>Budget Planner</h1>
+<h1>Budget Planner - Expense</h1>
 
 
 <div id="chartContainer">
@@ -44,7 +51,7 @@
         }
         @foreach (var item in Model) {
             double tempValue = chartData.GetValueOrDefault(item.Type, 0.0);
-            tempValue += item.Amount;
+            tempValue += item.Amount / frequencyDict[item.Frequency] * 7;
             chartData[item.Type] = tempValue;
             <tr>
                 <td>
